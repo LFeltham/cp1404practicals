@@ -1,0 +1,26 @@
+Quick Questions:
+1. !=
+2. <=
+3. True
+4. True
+5. True
+6. True
+
+Patterns:
+1. if, elif, else
+2. if, else
+3. if, if, if
+4. if, elif, else
+5. if, else
+6. if, elif, else
+7. if, elif, else
+
+Reflection:
+1. I should continue focusing on applying the new programming concepts taught in class, allowing me
+to build a stronger foundation without relying on outdated knowledge.
+
+2. I need to stop submitting assignments late and prioritize time management to enhance my
+overall performance in this subject.
+
+3. I need to start better learning how to effectively use GitHub and repositories, which will improve my
+collaboration skills in future projects.
