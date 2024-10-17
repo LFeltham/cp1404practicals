@@ -4,7 +4,7 @@ MINIMUM_LENGTH = 4
 #     while len(password) < MINIMUM_LENGTH:
 #         password = input(f"Enter password: ")
 #     print('*' * len(password))
-#
+
 
 def main():
     password = get_password(MINIMUM_LENGTH)
