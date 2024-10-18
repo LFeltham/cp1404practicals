@@ -6,7 +6,7 @@ MAXIMUM = 45
 
 
 def main():
-    number_of_quick_picks = int(input("How many quick picks? "))
+    number_of_quick_picks = (input("How many quick picks? "))
 
     for i in range(int(number_of_quick_picks)):
         quick_pick = []
