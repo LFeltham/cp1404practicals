@@ -1,9 +1,9 @@
+"""client code to test the ProgrammingLanguage class."""
 from programming_language import ProgrammingLanguage
 
 
 def main():
     """Test the ProgrammingLanguage class functionality."""
-
     # Create instances of ProgrammingLanguage
     python_language = ProgrammingLanguage("Python", "Dynamic", True, 1991)
     ruby_language = ProgrammingLanguage("Ruby", "Dynamic", True, 1995)
@@ -16,9 +16,8 @@ def main():
 
     # Store the language objects in a list
     programming_languages = [python_language, ruby_language, visual_basic_language]
-
-    # Demonstrate the is_dynamic method
-    print("\nDynamically typed languages:")
+    # Print dynamically typed languages
+    print("\nThe dynamically typed languages are:")
     for language in programming_languages:
         if language.is_dynamic():
             print(language.name)
