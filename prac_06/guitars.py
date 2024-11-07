@@ -1,4 +1,4 @@
-"""Program to manage a collection of guitars."""
+""" Program to manage a collection of guitars."""
 
 from guitar import Guitar
 
