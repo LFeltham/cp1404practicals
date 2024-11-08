@@ -1,13 +1,13 @@
 """Time Estimate to complete Project Management Program
 Estimated= 50 minutes
-Actual= ??
+Actual= 63 minutes
 """
 from datetime import datetime
 
 
 class Project:
     """Class project: attributes for name, start date, priority, cost, completion
-    percentage."""
+    percentage"""
 
     def __init__(self, name, start_date, priority, cost_estimate, completion_percentage):
         """Initialize instance with name, start date, priority, cost, and

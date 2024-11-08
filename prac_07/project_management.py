@@ -10,7 +10,7 @@ def main():
     print(f"Welcome to Pythonic Project Management\nLoaded {len(projects)} projects from {FILENAME}")
     menu = """
     - (L)oad projects  
-    - (S)ave projects  
+    - (S)ave projects   
     - (D)isplay projects  
     - (F)ilter projects by date
     - (A)dd new project  
