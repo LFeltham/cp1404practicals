@@ -20,7 +20,7 @@ file helps others and future me to understand the purpose and
 usage of the code.
 
 ## links
-- [Programming Patterns](https://github.com/CP1404/Programming-Patterns)
-- [CP1404 Practicals Instructions](https://github.com/CP1404/Practicals)
+- [Programming Patterns](https://github.com/CP1404/Starter/wiki/Programming-Patterns)
+- [CP1404 Practicals](https://github.com/CP1404/Practicals)
 
 
