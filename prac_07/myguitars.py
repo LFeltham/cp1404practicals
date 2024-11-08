@@ -3,21 +3,21 @@ from guitar import Guitar
 
 
 def main():
-    """Main function to manage guitar data."""
+    """main function to manage guitar data"""
     guitars = load_guitars("guitars.csv")
     display_guitars(guitars)
 
     add_new_guitars(guitars)
     save_guitars("guitars.csv", guitars)
 
-    # Sort the guitars by year and display them
+    # Sort guitars objects by year and print
     guitars.sort()
     print("\nGuitars sorted by year:")
     display_guitars(guitars)
 
 
 def load_guitars(filename):
-    """Load guitars from a CSV file and return a list of Guitar objects."""
+    """Load guitars from guitars.csv and return list of guitar objects."""
     guitars = []
     with open(filename, 'r') as file:
         reader = csv.reader(file)
@@ -28,13 +28,13 @@ def load_guitars(filename):
 
 
 def display_guitars(guitars):
-    """Display all guitars in a list."""
+    """Display all guitars in list"""
     for guitar in guitars:
         print(guitar)
 
 
 def add_new_guitars(guitars):
-    """Prompt user to add new guitars to the list."""
+    """user input to add new guitars"""
     print("\nEnter new guitars (leave name blank to finish):")
     while True:
         name = input("Name: ")
@@ -48,7 +48,7 @@ def add_new_guitars(guitars):
 
 
 def save_guitars(filename, guitars):
-    """Save all guitars to a CSV file."""
+    """Save user input to guitars.csv"""
     with open(filename, 'w', newline='') as file:
         writer = csv.writer(file)
         for guitar in guitars:
